@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* topheader starts from here */
+
+#topheader{
+ width: 100%;
+ height: 40px;
+ background-color: rgb(177, 228, 100);
+ color: white;
+ display: flex;
+ justify-content:space-evenly;
+ padding: 15px;
+ /*padding-left: 150px;
+ padding-right: 150px;*/
+ align-items: center;
+ font-weight:bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbar nav .prime{
+    padding-left: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul{
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: white;
+color: black;
+font-size:xx-large;
+font-weight: bolder;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar p{
+    padding-left: 50px;
+    padding-top: 0px;
+}
+#navbar ul p:hover{
+    color: white;
+}
+
+/* main section coding start here*/
+
+#home{
+    background-image: url(babycare.jpg);
+    width: 1500px;
+    height: 600px;
+    background-size: cover;
+}
+
+#home .hometexth1{
+    width: 50%;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+#home .hometext h1 div{
+    
+    font-size: 2000px;
+    color:rgb(177, 228, 100);
+}
+
+#home .hometext h1 div .box1{
+    padding-bottom: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size:500px;
+    color: white;
+}
+
+#home .box1{
+    width: 200px;
+    border: 1px solid gray;
+    padding-left: 80px;
+    padding-top: 40px;
+    background-color: rgba(41, 38, 38, 0.936);
+    box-sizing:content-box;
+}
+
+#home .box1 .font{
+    position: absolute;
+    justify-content: center;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.btn1{
+    color:white ;
+    background-color: rgb(182, 233, 105);
+    width: 200px;
+    height: 70px;
+    font-size:larger;
+    margin-top: 25px;
+    margin-left: 45px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.btn1:hover{
+    background-color: rgb(117, 182, 19);
+}
+
+#home .hometext h2 div .box2{
+    padding-bottom: 50%;
+    font-size:500px;
+    color: white;
+}
+
+#home .box2{
+    width: 200px;
+    margin-left: 79%;
+    margin-top: 10%;
+    position: absolute;
+    border: 1px solid gray;
+    justify-content: right;
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: rgba(46, 44, 44, 0.936);
+    box-sizing:content-box;
+    
+}
+
+
+.btn2{
+    color:white ;
+    background-color: rgb(182, 233, 105);
+    width: 200px;
+    height: 70px;
+    font-size:larger;
+    margin-left: 1250px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn2:hover{
+    background-color: rgb(117, 182, 19);
+}
+
+/*section  coding start here*/
+
+#back {
+    top:300px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#back .cont{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+#back .cont .box3{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(228, 228, 154);
+    border: 1px solid black;
+}
+
+#back .cont .box3:hover{
+  background-color: rgb(140, 203, 45);
+  cursor: auto;
+}
+/*  head code start from here  */
+#head{
+    color: rgb(180, 175, 175);
+    margin-top: 60px;
+    margin-left: 670px;
+    font-weight: 1200;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header{
+    color: beige;
+    margin-top: 40px;
+    margin-left: 490px;
+}
+
+.brief{
+    color: bisque;
+    margin-top: 80px;
+    margin-left: 580px;
+    font-size: x-large;
+}
+
+/* about code */
+
+#about{
+    width: 100%;
+    margin-top: 75px;
+}
+
+#about .abouttext{
+    display: flex;
+    justify-content: center;
+}
+
+#about .abouttext .abouting{
+    width: 500px;
+}
+
+#about .abouttext .aboutcontent{
+    width: 500px;
+    height: 370px;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left:30pxpx;
+    background-color:bisque;
+}
+
+/* good code start from here */
+
+#good{
+    width: 100%;
+    margin-top: 75px;
+}
+
+#good .goodtext{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#good .goodtext .gooding{
+    width: 500px;
+}
+
+#good .goodtext .goodcontent{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 40px;
+    margin-top: 80px;
+    margin-right: 90px;
+    background-color:bisque;
+}
+
+/* last code start from here*/
+
+#last {
+margin-left: 600px;
+}
+
+#last .connect{
+  color: rgb(17, 17, 17);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 200px;
+  margin-left: 0px;
+  font-size: xxx-large;
+}
+
+/* contact code*/
+
+#contact{
+    border-color: black;
+    height: 10%;
+    width: 40%;
+    margin-left: 540px;
+    margin-top: 70px;
+}
+
+#contact input{
+    height: 40px;
+    width: 500px;
+    border-radius: 10% solid black;
+}
+
+/* navigation */
+
+#navigation{
+    font-size: medium;
+}
